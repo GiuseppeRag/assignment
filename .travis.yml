@@ -1,6 +1,6 @@
 #GiuseppeRag/assignment
 
-language: node.js
+language: node_js
 
 node_js:
  - "10.9.0"
