@@ -14,7 +14,7 @@ before_install:
 install:
  - npm install
 
-sript:
+script:
  - npm run build
  - npm run test
 
@@ -22,4 +22,3 @@ deploy:
   provider: script
   script: bash scripts/deploy.sh
   skip_cleanup: true
-  now public --token=$NOW_TOKEN
